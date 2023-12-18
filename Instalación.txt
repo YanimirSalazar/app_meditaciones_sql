@@ -1,0 +1,14 @@
+Para la creación de la base de datos de la app de meditación se deben compilar los archivos siguiendo los pasos en este orden:
+
+1- Ingresar a la carpeta Archivos SQL 
+2- Ingresar a la carpeta Creación de tablas y compilar el archivo ScripTablas. Esto creará el esquema de la base de datos con sus respectivas tablas.
+3- Ingresar a la carpeta Inserción de datos y compilar el archivo ScripIns. Esto permitirá insertar los datos a cada una de las tablas de la base de datos en el orden correcto y así evitar errores por las llaves foráneas.
+4- Ingresar a la carpeta Transacciones y compilar el archivo TCL. Este se encarga de insertar otros datos adicionales a la tabla meditaciones y de eliminar algunas valoraciones para realizar pruebas. 
+5- Ingresar a la carpeta Creación de vistas y compilar el archivo ScripVis. Este creará las 5 vistas descritas en la documentación que permiten acceder a la información especificada. 
+6- Ingresar a la carpeta Creación de funciones y compilar el archivo ScripFunc. Este creará las 3 funciones descritas en la documentación que permiten acceder a la información especificada.
+7- Ingresar a la carpeta Creación de procedimientos y compilar el archivo ScripStored. Este creará los 2 procedimientos descritos 
+en la documentación que permiten acceder a la información específicada.
+8- Ingresar a la carpeta Creación de Triggers y compilar en archivo ScripTriggers. Este creará las tablas LOG_INSERCIONES y LOG_MODIFICACIONES y los triggers que ingresarán la información a dichas tablas cuando se lleven a cabo las acciones específicadas 
+en la documentación. 
+9- Ingresar a la carpeta Creación de usuarios y compilar el archivo ScripUsuarios. Este archivo creará 2 usuarios: user_1 con la contraseña abc123 (con permisos de solo lectura en todas las tablas del esquema app_meditaciones y user_2 con la contraseña ABC123 (con permisos de lectura, inserción y modificación de datos en todas las tablas del esquema app_meditaciones).
+10- Ingresar a la carpeta Backup y abrir el archivo Backup que contiene en respaldo de las tablas y los datos. (No incluye la estructura de la base de datos)
