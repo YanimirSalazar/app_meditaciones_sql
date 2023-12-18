@@ -10,6 +10,8 @@ La capacidad de almacenar, organizar y analizar estos datos de manera eficiente 
 
 ## Archivos:
 
+- Documentación técnica
+- Archivo de Instalación
 - Creación de tablas
 - inserción de datos
 - Vistas
